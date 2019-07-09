@@ -17,5 +17,5 @@ limitations under the License.
 package conformance
 
 import (
-	_ "github.com/jetstack/cert-manager/test/e2e/suite/conformance/rbac"
+	_ "github.com/leki75/cert-manager/test/e2e/suite/conformance/rbac"
 )

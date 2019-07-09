@@ -29,14 +29,14 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
 
-	"github.com/jetstack/cert-manager/pkg/acme"
-	cmlisters "github.com/jetstack/cert-manager/pkg/client/listers/certmanager/v1alpha1"
-	controllerpkg "github.com/jetstack/cert-manager/pkg/controller"
-	"github.com/jetstack/cert-manager/pkg/controller/acmechallenges/scheduler"
-	"github.com/jetstack/cert-manager/pkg/issuer"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/http"
-	logf "github.com/jetstack/cert-manager/pkg/logs"
+	"github.com/leki75/cert-manager/pkg/acme"
+	cmlisters "github.com/leki75/cert-manager/pkg/client/listers/certmanager/v1alpha1"
+	controllerpkg "github.com/leki75/cert-manager/pkg/controller"
+	"github.com/leki75/cert-manager/pkg/controller/acmechallenges/scheduler"
+	"github.com/leki75/cert-manager/pkg/issuer"
+	"github.com/leki75/cert-manager/pkg/issuer/acme/dns"
+	"github.com/leki75/cert-manager/pkg/issuer/acme/http"
+	logf "github.com/leki75/cert-manager/pkg/logs"
 )
 
 type Controller struct {

@@ -17,5 +17,5 @@ limitations under the License.
 package vault
 
 import (
-	_ "github.com/jetstack/cert-manager/test/e2e/suite/issuers/vault/certificate"
+	_ "github.com/leki75/cert-manager/test/e2e/suite/issuers/vault/certificate"
 )

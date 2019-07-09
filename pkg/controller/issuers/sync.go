@@ -24,10 +24,10 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/errors"
 
-	apiutil "github.com/jetstack/cert-manager/pkg/api/util"
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/validation"
-	logf "github.com/jetstack/cert-manager/pkg/logs"
+	apiutil "github.com/leki75/cert-manager/pkg/api/util"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/validation"
+	logf "github.com/leki75/cert-manager/pkg/logs"
 )
 
 const (

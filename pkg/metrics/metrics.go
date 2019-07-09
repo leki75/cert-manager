@@ -31,10 +31,10 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	corelisters "k8s.io/client-go/listers/core/v1"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	logf "github.com/jetstack/cert-manager/pkg/logs"
-	"github.com/jetstack/cert-manager/pkg/util/errors"
-	"github.com/jetstack/cert-manager/pkg/util/kube"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	logf "github.com/leki75/cert-manager/pkg/logs"
+	"github.com/leki75/cert-manager/pkg/util/errors"
+	"github.com/leki75/cert-manager/pkg/util/kube"
 )
 
 const (

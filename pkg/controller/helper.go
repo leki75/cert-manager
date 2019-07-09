@@ -23,7 +23,7 @@ import (
 
 	"k8s.io/klog"
 
-	cmapi "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
+	cmapi "github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
 )
 
 func (o IssuerOptions) ResourceNamespace(iss cmapi.GenericIssuer) string {

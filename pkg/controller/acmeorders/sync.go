@@ -30,10 +30,10 @@ import (
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	"k8s.io/apimachinery/pkg/util/sets"
 
-	"github.com/jetstack/cert-manager/pkg/acme"
-	acmecl "github.com/jetstack/cert-manager/pkg/acme/client"
-	cmapi "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	acmeapi "github.com/jetstack/cert-manager/third_party/crypto/acme"
+	"github.com/leki75/cert-manager/pkg/acme"
+	acmecl "github.com/leki75/cert-manager/pkg/acme/client"
+	cmapi "github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	acmeapi "github.com/leki75/cert-manager/third_party/crypto/acme"
 	"k8s.io/klog"
 )
 
