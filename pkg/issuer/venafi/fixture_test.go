@@ -22,8 +22,8 @@ import (
 
 	vfake "github.com/Venafi/vcert/pkg/venafi/fake"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/controller/test"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/leki75/cert-manager/pkg/controller/test"
 )
 
 type fixture struct {

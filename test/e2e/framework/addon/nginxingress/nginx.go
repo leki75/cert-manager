@@ -20,10 +20,10 @@ package nginxingress
 import (
 	"fmt"
 
-	cmutil "github.com/jetstack/cert-manager/pkg/util"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon/chart"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon/tiller"
-	"github.com/jetstack/cert-manager/test/e2e/framework/config"
+	cmutil "github.com/leki75/cert-manager/pkg/util"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon/chart"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon/tiller"
+	"github.com/leki75/cert-manager/test/e2e/framework/config"
 )
 
 // Nginx describes the configuration details for an instance of nginx-ingress

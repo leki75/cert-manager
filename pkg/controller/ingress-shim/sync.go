@@ -28,10 +28,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/logs"
-	"github.com/jetstack/cert-manager/pkg/metrics"
-	"github.com/jetstack/cert-manager/pkg/util"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/leki75/cert-manager/pkg/logs"
+	"github.com/leki75/cert-manager/pkg/metrics"
+	"github.com/leki75/cert-manager/pkg/util"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 )
 

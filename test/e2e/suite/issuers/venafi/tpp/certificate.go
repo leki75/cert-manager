@@ -22,11 +22,11 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	cmapi "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	cmutil "github.com/jetstack/cert-manager/pkg/util"
-	"github.com/jetstack/cert-manager/test/e2e/framework"
-	vaddon "github.com/jetstack/cert-manager/test/e2e/suite/issuers/venafi/addon"
-	"github.com/jetstack/cert-manager/test/e2e/util"
+	cmapi "github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	cmutil "github.com/leki75/cert-manager/pkg/util"
+	"github.com/leki75/cert-manager/test/e2e/framework"
+	vaddon "github.com/leki75/cert-manager/test/e2e/suite/issuers/venafi/addon"
+	"github.com/leki75/cert-manager/test/e2e/util"
 )
 
 var _ = TPPDescribe("with a properly configured Issuer", func() {

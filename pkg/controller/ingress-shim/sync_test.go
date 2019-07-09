@@ -27,9 +27,9 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	coretesting "k8s.io/client-go/testing"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	testpkg "github.com/jetstack/cert-manager/pkg/controller/test"
-	"github.com/jetstack/cert-manager/test/unit/gen"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	testpkg "github.com/leki75/cert-manager/pkg/controller/test"
+	"github.com/leki75/cert-manager/test/unit/gen"
 )
 
 const testAcmeTLSAnnotation = "kubernetes.io/tls-acme"

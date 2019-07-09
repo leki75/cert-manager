@@ -29,12 +29,12 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
 
-	cmv1alpha1 "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	clientset "github.com/jetstack/cert-manager/pkg/client/clientset/versioned"
-	cmlisters "github.com/jetstack/cert-manager/pkg/client/listers/certmanager/v1alpha1"
-	controllerpkg "github.com/jetstack/cert-manager/pkg/controller"
-	"github.com/jetstack/cert-manager/pkg/issuer"
-	logf "github.com/jetstack/cert-manager/pkg/logs"
+	cmv1alpha1 "github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	clientset "github.com/leki75/cert-manager/pkg/client/clientset/versioned"
+	cmlisters "github.com/leki75/cert-manager/pkg/client/listers/certmanager/v1alpha1"
+	controllerpkg "github.com/leki75/cert-manager/pkg/controller"
+	"github.com/leki75/cert-manager/pkg/issuer"
+	logf "github.com/leki75/cert-manager/pkg/logs"
 )
 
 const (

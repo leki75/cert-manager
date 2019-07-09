@@ -20,11 +20,11 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	cmutil "github.com/jetstack/cert-manager/pkg/util"
-	"github.com/jetstack/cert-manager/test/e2e/framework"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon"
-	"github.com/jetstack/cert-manager/test/e2e/util"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	cmutil "github.com/leki75/cert-manager/pkg/util"
+	"github.com/leki75/cert-manager/test/e2e/framework"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon"
+	"github.com/leki75/cert-manager/test/e2e/util"
 )
 
 var _ = framework.CertManagerDescribe("CA ClusterIssuer", func() {

@@ -26,9 +26,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon/tiller"
-	"github.com/jetstack/cert-manager/test/e2e/framework/config"
-	"github.com/jetstack/cert-manager/test/e2e/framework/log"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon/tiller"
+	"github.com/leki75/cert-manager/test/e2e/framework/config"
+	"github.com/leki75/cert-manager/test/e2e/framework/log"
 )
 
 // Chart is a generic Helm chart addon for the test environment

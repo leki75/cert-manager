@@ -23,7 +23,7 @@ import (
 	"path"
 	"strings"
 
-	logf "github.com/jetstack/cert-manager/pkg/logs"
+	logf "github.com/leki75/cert-manager/pkg/logs"
 )
 
 type HTTP01Solver struct {

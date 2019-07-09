@@ -19,8 +19,8 @@ package fake
 import (
 	"context"
 
-	cmapi "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/issuer"
+	cmapi "github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/leki75/cert-manager/pkg/issuer"
 )
 
 type Issuer struct {

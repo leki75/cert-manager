@@ -19,8 +19,8 @@ package certificates
 import (
 	"fmt"
 
-	cmapi "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	logf "github.com/jetstack/cert-manager/pkg/logs"
+	cmapi "github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	logf "github.com/leki75/cert-manager/pkg/logs"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/labels"
 )

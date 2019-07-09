@@ -21,8 +21,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/labels"
 
-	cmapi "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	logf "github.com/jetstack/cert-manager/pkg/logs"
+	cmapi "github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	logf "github.com/leki75/cert-manager/pkg/logs"
 )
 
 func (c *Controller) handleGenericIssuer(obj interface{}) {

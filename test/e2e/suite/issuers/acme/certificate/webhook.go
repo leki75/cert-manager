@@ -25,15 +25,15 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/test/e2e/framework"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon/pebble"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon/samplewebhook"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon/tiller"
-	"github.com/jetstack/cert-manager/test/e2e/framework/log"
-	"github.com/jetstack/cert-manager/test/e2e/util"
-	"github.com/jetstack/cert-manager/test/util/generate"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/leki75/cert-manager/test/e2e/framework"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon/pebble"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon/samplewebhook"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon/tiller"
+	"github.com/leki75/cert-manager/test/e2e/framework/log"
+	"github.com/leki75/cert-manager/test/e2e/util"
+	"github.com/leki75/cert-manager/test/util/generate"
 )
 
 var _ = framework.CertManagerDescribe("ACME webhook DNS provider", func() {

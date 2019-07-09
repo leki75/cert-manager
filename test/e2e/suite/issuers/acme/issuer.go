@@ -23,12 +23,12 @@ import (
 	. "github.com/onsi/gomega"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/test/e2e/framework"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon/pebble"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon/tiller"
-	"github.com/jetstack/cert-manager/test/e2e/util"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/leki75/cert-manager/test/e2e/framework"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon/pebble"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon/tiller"
+	"github.com/leki75/cert-manager/test/e2e/util"
 )
 
 const invalidACMEURL = "http://not-a-real-acme-url.com"

@@ -20,7 +20,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/jetstack/cert-manager/test/e2e/framework"
+	"github.com/leki75/cert-manager/test/e2e/framework"
 )
 
 var _ = RBACDescribe("CertificateRequests", func() {

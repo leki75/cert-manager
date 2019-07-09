@@ -21,8 +21,8 @@ import (
 	"crypto/x509"
 	"time"
 
-	cmapi "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/logs"
+	cmapi "github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/leki75/cert-manager/pkg/logs"
 )
 
 func (o IssuerOptions) ResourceNamespace(iss cmapi.GenericIssuer) string {

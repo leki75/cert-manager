@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/test/util/generate"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/leki75/cert-manager/test/util/generate"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

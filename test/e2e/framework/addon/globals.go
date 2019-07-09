@@ -21,12 +21,12 @@ import (
 
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon/base"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon/certmanager"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon/nginxingress"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon/tiller"
-	"github.com/jetstack/cert-manager/test/e2e/framework/config"
-	"github.com/jetstack/cert-manager/test/e2e/framework/log"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon/base"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon/certmanager"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon/nginxingress"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon/tiller"
+	"github.com/leki75/cert-manager/test/e2e/framework/config"
+	"github.com/leki75/cert-manager/test/e2e/framework/log"
 )
 
 type Addon interface {

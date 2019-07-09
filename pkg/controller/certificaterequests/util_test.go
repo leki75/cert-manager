@@ -24,10 +24,10 @@ import (
 	realclock "k8s.io/utils/clock"
 	clock "k8s.io/utils/clock/testing"
 
-	apiutil "github.com/jetstack/cert-manager/pkg/api/util"
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/controller/test"
-	"github.com/jetstack/cert-manager/pkg/issuer"
+	apiutil "github.com/leki75/cert-manager/pkg/api/util"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/leki75/cert-manager/pkg/controller/test"
+	"github.com/leki75/cert-manager/pkg/issuer"
 )
 
 type controllerFixture struct {

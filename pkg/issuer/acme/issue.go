@@ -32,13 +32,13 @@ import (
 	"k8s.io/apimachinery/pkg/selection"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 
-	"github.com/jetstack/cert-manager/pkg/acme"
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/issuer"
-	logf "github.com/jetstack/cert-manager/pkg/logs"
-	"github.com/jetstack/cert-manager/pkg/util/errors"
-	"github.com/jetstack/cert-manager/pkg/util/kube"
-	"github.com/jetstack/cert-manager/pkg/util/pki"
+	"github.com/leki75/cert-manager/pkg/acme"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/leki75/cert-manager/pkg/issuer"
+	logf "github.com/leki75/cert-manager/pkg/logs"
+	"github.com/leki75/cert-manager/pkg/util/errors"
+	"github.com/leki75/cert-manager/pkg/util/kube"
+	"github.com/leki75/cert-manager/pkg/util/pki"
 )
 
 const (
