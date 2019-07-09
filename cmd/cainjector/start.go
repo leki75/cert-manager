@@ -26,9 +26,9 @@ import (
 	"k8s.io/klog"
 	ctrl "sigs.k8s.io/controller-runtime"
 
-	"github.com/jetstack/cert-manager/pkg/api"
-	"github.com/jetstack/cert-manager/pkg/controller/cainjector"
-	"github.com/jetstack/cert-manager/pkg/util"
+	"github.com/leki75/cert-manager/pkg/api"
+	"github.com/leki75/cert-manager/pkg/controller/cainjector"
+	"github.com/leki75/cert-manager/pkg/util"
 )
 
 type InjectorControllerOptions struct {

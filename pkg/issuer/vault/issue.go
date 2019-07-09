@@ -33,11 +33,11 @@ import (
 	k8sErrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/klog"
 
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/issuer"
-	"github.com/jetstack/cert-manager/pkg/util/errors"
-	"github.com/jetstack/cert-manager/pkg/util/kube"
-	"github.com/jetstack/cert-manager/pkg/util/pki"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/leki75/cert-manager/pkg/issuer"
+	"github.com/leki75/cert-manager/pkg/util/errors"
+	"github.com/leki75/cert-manager/pkg/util/kube"
+	"github.com/leki75/cert-manager/pkg/util/pki"
 )
 
 const (

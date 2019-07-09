@@ -25,11 +25,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/diff"
 
-	cmapi "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
-	"github.com/jetstack/cert-manager/pkg/client/clientset/versioned/fake"
-	cminformers "github.com/jetstack/cert-manager/pkg/client/informers/externalversions"
-	"github.com/jetstack/cert-manager/pkg/util"
-	"github.com/jetstack/cert-manager/test/unit/gen"
+	cmapi "github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
+	"github.com/leki75/cert-manager/pkg/client/clientset/versioned/fake"
+	cminformers "github.com/leki75/cert-manager/pkg/client/informers/externalversions"
+	"github.com/leki75/cert-manager/pkg/util"
+	"github.com/leki75/cert-manager/test/unit/gen"
 )
 
 const maxConcurrentChallenges = 60

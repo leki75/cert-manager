@@ -22,8 +22,8 @@ import (
 
 	"k8s.io/klog"
 
-	apiutil "github.com/jetstack/cert-manager/pkg/api/util"
-	"github.com/jetstack/cert-manager/pkg/apis/certmanager/v1alpha1"
+	apiutil "github.com/leki75/cert-manager/pkg/api/util"
+	"github.com/leki75/cert-manager/pkg/apis/certmanager/v1alpha1"
 )
 
 const (

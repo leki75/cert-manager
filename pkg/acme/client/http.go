@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jetstack/cert-manager/pkg/metrics"
+	"github.com/leki75/cert-manager/pkg/metrics"
 )
 
 // This file implements a custom instrumented HTTP client round tripper that

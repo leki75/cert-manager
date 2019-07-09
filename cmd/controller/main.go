@@ -24,7 +24,7 @@ import (
 
 	"k8s.io/klog"
 
-	logf "github.com/jetstack/cert-manager/pkg/logs"
+	logf "github.com/leki75/cert-manager/pkg/logs"
 )
 
 func main() {

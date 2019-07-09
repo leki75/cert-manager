@@ -26,9 +26,9 @@ import (
 	"cloud.google.com/go/storage"
 	flag "github.com/spf13/pflag"
 
-	"github.com/jetstack/cert-manager/hack/release/pkg/flags"
-	"github.com/jetstack/cert-manager/hack/release/pkg/helm"
-	logf "github.com/jetstack/cert-manager/hack/release/pkg/log"
+	"github.com/leki75/cert-manager/hack/release/pkg/flags"
+	"github.com/leki75/cert-manager/hack/release/pkg/helm"
+	logf "github.com/leki75/cert-manager/hack/release/pkg/log"
 )
 
 var (
@@ -50,7 +50,7 @@ type Plugin struct {
 
 func (g *Plugin) AddFlags(fs *flag.FlagSet) {
 	fs.StringVar(&g.OutputDir, "chart.output-dir", "", "optional output directory to specify where to build the helm chart gz file")
-	fs.StringVar(&g.Bucket, "chart.bucket", "jetstack-chart-museum", "google cloud storage bucket to publish helm charts to")
+	fs.StringVar(&g.Bucket, "chart.bucket", "leki75-chart-museum", "google cloud storage bucket to publish helm charts to")
 }
 
 func (g *Plugin) Validate() []error {

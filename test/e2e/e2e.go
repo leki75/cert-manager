@@ -23,9 +23,9 @@ import (
 
 	"github.com/onsi/ginkgo"
 
-	"github.com/jetstack/cert-manager/test/e2e/framework"
-	"github.com/jetstack/cert-manager/test/e2e/framework/addon"
-	"github.com/jetstack/cert-manager/test/e2e/framework/log"
+	"github.com/leki75/cert-manager/test/e2e/framework"
+	"github.com/leki75/cert-manager/test/e2e/framework/addon"
+	"github.com/leki75/cert-manager/test/e2e/framework/log"
 )
 
 var (
