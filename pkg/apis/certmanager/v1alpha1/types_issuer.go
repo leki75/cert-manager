@@ -286,7 +286,7 @@ type ACMEChallengeSolverDNS01 struct {
 	// CNAMEStrategy configures how the DNS01 provider should handle CNAME
 	// records when found in DNS zones.
 	// +optional
-	// +kubebuilder:validation:Enum=None,Follow
+	// +kubebuilder:validation:Enum=None;Follow
 	CNAMEStrategy CNAMEStrategy `json:"cnameStrategy,omitempty"`
 
 	// +optional
@@ -344,7 +344,7 @@ type ACMEIssuerDNS01Provider struct {
 	// CNAMEStrategy configures how the DNS01 provider should handle CNAME
 	// records when found in DNS zones.
 	// +optional
-	// +kubebuilder:validation:Enum=None,Follow
+	// +kubebuilder:validation:Enum=None;Follow
 	CNAMEStrategy CNAMEStrategy `json:"cnameStrategy,omitempty"`
 
 	// +optional
@@ -535,7 +535,7 @@ type IssuerCondition struct {
 	Type IssuerConditionType `json:"type"`
 
 	// Status of the condition, one of ('True', 'False', 'Unknown').
-	// +kubebuilder:validation:Enum=True,False,Unknown
+	// +kubebuilder:validation:Enum=True;False;Unknown
 	Status ConditionStatus `json:"status"`
 
 	// LastTransitionTime is the timestamp corresponding to the last status
